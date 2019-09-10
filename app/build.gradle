@@ -1,0 +1,41 @@
+import me.rahulsengupta.buildsrc.AppMetaData
+import me.rahulsengupta.buildsrc.Libraries
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion AppMetaData.compileSdkVersion
+    buildToolsVersion AppMetaData.buildToolsVersion
+    defaultConfig {
+        applicationId AppMetaData.id
+        minSdkVersion AppMetaData.minSdkVersion
+        targetSdkVersion AppMetaData.targetSdkVersion
+        versionCode AppMetaData.versionCode
+        versionName AppMetaData.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        buildConfigField "boolean", "DEBUG_LOGS", "true"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation Libraries.kotlin
+    implementation Libraries.appCompat
+    implementation Libraries.androidxCore
+    implementation Libraries.constraintLayout
+    implementation Libraries.googleAndroidMaterial
+
+    testImplementation Libraries.jUnit
+
+    androidTestImplementation Libraries.testRunner
+    androidTestImplementation Libraries.testEspresso
+}
