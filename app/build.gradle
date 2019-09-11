@@ -1,5 +1,6 @@
 import me.rahulsengupta.buildsrc.AppMetaData
 import me.rahulsengupta.buildsrc.Libraries
+import me.rahulsengupta.buildsrc.Modules
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
@@ -28,11 +29,24 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(Modules.domain)
+    implementation project(Modules.network)
+
     implementation Libraries.kotlin
     implementation Libraries.appCompat
     implementation Libraries.androidxCore
     implementation Libraries.constraintLayout
     implementation Libraries.googleAndroidMaterial
+    implementation Libraries.koinXcore
+    implementation Libraries.koinXscope
+    implementation Libraries.koinXviewModel
+
+    api Libraries.lifecycleExtensions
+    api Libraries.lifecycleViewModel
+    api Libraries.lifecycleLiveData
+    api Libraries.lifecycleRuntime
+
+    implementation Libraries.multidex
 
     testImplementation Libraries.jUnit
 

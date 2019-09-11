@@ -1,2 +1,6 @@
-include ':app', ':buildSrc'
-rootProject.name='architecture-sample'
+include ':network'
+import me.rahulsengupta.buildsrc.Modules
+
+include Modules.app,
+        Modules.abstractor,
+        Modules.domain
