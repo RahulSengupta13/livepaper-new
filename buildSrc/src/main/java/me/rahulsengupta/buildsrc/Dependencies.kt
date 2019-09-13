@@ -1,4 +1,4 @@
-package me.rahulsengupta.buildsrc;
+package me.rahulsengupta.buildsrc
 
 object AppMetaData {
     const val id = "me.rahulsengupta.architecture_sample"
@@ -32,6 +32,7 @@ object Versions {
     const val okHttp = "3.12.0"
     const val retrofit = "2.6.0"
     const val gson = "2.8.5"
+    const val coroutineCallAdapter = "0.9.2"
 
     // Test
     const val jUnit = "4.12"
@@ -64,10 +65,8 @@ object Libraries {
     const val koinTest = "org.koin:koin-test:${Versions.koin}"
 
     // UI
-    const val constraintLayout =
-            "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
-    const val googleAndroidMaterial =
-            "com.google.android.material:material:${Versions.googleAndroidMaterial}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val googleAndroidMaterial = "com.google.android.material:material:${Versions.googleAndroidMaterial}"
 
     // Test
     const val jUnit = "junit:junit:${Versions.jUnit}"
@@ -80,6 +79,7 @@ object Libraries {
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     const val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
+    const val coroutineCallAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.coroutineCallAdapter}"
 }
 
 object Modules {

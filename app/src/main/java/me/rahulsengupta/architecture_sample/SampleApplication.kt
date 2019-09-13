@@ -13,7 +13,7 @@ class SampleApplication : Application() {
         startKoin {
             printLogger()
             androidContext(this@SampleApplication)
-            ModuleProvider.modules
+            modules(ModuleProvider.modules)
         }
     }
 }
