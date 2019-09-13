@@ -2,8 +2,8 @@ package me.rahulsengupta.network.core.di
 
 import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import me.rahulsengupta.domain.ports.PhotoNetworkPort
-import me.rahulsengupta.network.adapter.PhotosNetworkAdapter
+import me.rahulsengupta.domain.ports.PhotoApiPort
+import me.rahulsengupta.network.adapter.PhotoApiAdapter
 import me.rahulsengupta.network.service.PhotoService
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -26,7 +26,7 @@ object NetworkModules {
     }
 
     private val portModule = module {
-        single<PhotoNetworkPort> { PhotosNetworkAdapter(get()) }
+        single<PhotoApiPort> { PhotoApiAdapter(get()) }
     }
 
     val modules: List<Module>

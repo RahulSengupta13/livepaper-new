@@ -1,4 +1,4 @@
-package me.rahulsengupta.domain.core
+package me.rahulsengupta.abstractor.core.retrofit
 
 import java.io.Serializable
 

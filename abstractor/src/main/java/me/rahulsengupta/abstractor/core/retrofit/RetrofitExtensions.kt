@@ -1,6 +1,5 @@
-package me.rahulsengupta.domain.core.retrofit
+package me.rahulsengupta.abstractor.core.retrofit
 
-import me.rahulsengupta.domain.core.NoContentResponse
 import okhttp3.Headers
 import retrofit2.Call
 import retrofit2.Response

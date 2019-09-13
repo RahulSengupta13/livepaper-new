@@ -1,8 +1,8 @@
 package me.rahulsengupta.domain.ports
 
 import me.rahulsengupta.abstractor.dto.Photo
-import me.rahulsengupta.domain.core.retrofit.RetrofitResult
+import me.rahulsengupta.abstractor.core.retrofit.RetrofitResult
 
-interface PhotoNetworkPort {
+interface PhotoApiPort {
     fun getPhotos(): RetrofitResult<List<Photo>>
 }

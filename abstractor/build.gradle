@@ -1,7 +1,8 @@
 import me.rahulsengupta.buildsrc.GradleTemplates
+import me.rahulsengupta.buildsrc.Libraries
 
 apply from:"$rootDir/${GradleTemplates.androidLibrary}"
 
 dependencies {
-
+    implementation Libraries.retrofit
 }

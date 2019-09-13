@@ -1,4 +1,4 @@
-package me.rahulsengupta.domain.core.retrofit
+package me.rahulsengupta.abstractor.core.retrofit
 
 import okhttp3.Headers
 import retrofit2.Response
