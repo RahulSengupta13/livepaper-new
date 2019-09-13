@@ -38,6 +38,9 @@ object Versions {
     const val jUnit = "4.12"
     const val testRunner = "1.2.0"
     const val testEspresso = "3.2.0"
+
+    // Logging
+    const val timber = "4.7.1"
 }
 
 object Libraries {
@@ -80,6 +83,9 @@ object Libraries {
     const val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val coroutineCallAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.coroutineCallAdapter}"
+
+    //Logging
+    const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 }
 
 object Modules {

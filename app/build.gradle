@@ -47,6 +47,7 @@ dependencies {
     api Libraries.lifecycleRuntime
 
     implementation Libraries.multidex
+    implementation Libraries.timber
 
     testImplementation Libraries.jUnit
 

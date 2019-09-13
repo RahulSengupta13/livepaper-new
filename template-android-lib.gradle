@@ -32,6 +32,8 @@ dependencies {
     implementation Libraries.coroutines
     implementation Libraries.coroutinesAndroid
 
+    implementation Libraries.timber
+
     testImplementation Libraries.jUnit
     testImplementation Libraries.koinTest
     androidTestImplementation Libraries.testRunner

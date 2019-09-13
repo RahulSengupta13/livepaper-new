@@ -2,9 +2,9 @@ package me.rahulsengupta.network.core.di
 
 import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import me.rahulsengupta.domain.ports.PhotoApiPort
-import me.rahulsengupta.network.adapter.PhotoApiAdapter
-import me.rahulsengupta.network.service.PhotoService
+import me.rahulsengupta.domain.ports.TypiCodeApiPort
+import me.rahulsengupta.network.adapter.TypiCodeAdapter
+import me.rahulsengupta.network.service.TypicodeEndpoints
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -22,11 +22,11 @@ object NetworkModules {
     }
 
     private val serviceModule = module {
-        single { get<Retrofit>().create(PhotoService::class.java) }
+        single { get<Retrofit>().create(TypicodeEndpoints::class.java) }
     }
 
     private val portModule = module {
-        single<PhotoApiPort> { PhotoApiAdapter(get()) }
+        single<TypiCodeApiPort> { TypiCodeAdapter(get()) }
     }
 
     val modules: List<Module>
