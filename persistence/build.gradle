@@ -1,0 +1,18 @@
+import me.rahulsengupta.buildsrc.GradleTemplates
+import me.rahulsengupta.buildsrc.Libraries
+import me.rahulsengupta.buildsrc.Modules
+
+apply from: "$rootDir/${GradleTemplates.androidLibrary}"
+
+dependencies {
+    implementation project(Modules.domain)
+    implementation Libraries.room
+    implementation Libraries.roomKTX
+    implementation Libraries.androidxCore
+    implementation(Libraries.androidxAnnotation) { force = true }
+
+    implementation Libraries.coroutines
+    implementation Libraries.coroutinesAndroid
+
+    kapt Libraries.roomCompiler
+}

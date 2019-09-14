@@ -18,6 +18,7 @@ object Versions {
     // Core
     const val androidXCore = "1.1.0"
     const val androidXAppCompact = "1.1.0"
+    const val androidXAnnotation = "1.1.0"
     const val androidXTest = "1.0.0"
     const val lifecycle = "2.2.0-alpha02"
     const val multidex = "1.0.3"
@@ -27,6 +28,9 @@ object Versions {
     // UI
     const val constraintLayout = "1.1.3"
     const val googleAndroidMaterial = "1.0.0"
+
+    // Room
+    const val room = "2.1.0"
 
     // Network
     const val okHttp = "3.12.0"
@@ -48,6 +52,7 @@ object Libraries {
     const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
 
     const val appCompat = "androidx.appcompat:appcompat:${Versions.androidXAppCompact}"
+    const val androidxAnnotation = "androidx.annotation:annotation:${Versions.androidXAnnotation}"
     const val androidxCore = "androidx.core:core-ktx:${Versions.androidXCore}"
     const val androidxTest = "androidx.test:core:${Versions.androidXTest}"
 
@@ -76,6 +81,11 @@ object Libraries {
     const val testRunner = "androidx.test:runner:${Versions.testRunner}"
     const val testEspresso = "androidx.test.espresso:espresso-core:${Versions.testEspresso}"
 
+    //Room
+    const val room = "androidx.room:room-runtime:${Versions.room}"
+    const val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
+    const val roomKTX = "androidx.room:room-ktx:${Versions.room}"
+
     // Network
     const val okhttp3 = "com.squareup.okhttp3:okhttp:${Versions.okHttp}"
     const val okhttp3Interceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
@@ -93,6 +103,7 @@ object Modules {
     const val abstractor = ":abstractor"
     const val domain = ":domain"
     const val network = ":network"
+    const val persistence = ":persistence"
 }
 
 object GradleTemplates {

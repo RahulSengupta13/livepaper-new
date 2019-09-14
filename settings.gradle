@@ -1,4 +1,4 @@
-include ':network'
+include ':network', ':persistence'
 import me.rahulsengupta.buildsrc.Modules
 
 include Modules.app,

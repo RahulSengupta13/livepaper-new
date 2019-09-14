@@ -54,7 +54,7 @@ object NetworkModules {
 
         okHttpClient.apply {
             addInterceptor(headerAuthorizationInterceptor)
-            addInterceptor(loggingInterceptor)
+//            addInterceptor(loggingInterceptor)
         }
 
         return Retrofit.Builder()

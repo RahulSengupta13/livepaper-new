@@ -31,6 +31,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(Modules.domain)
     implementation project(Modules.network)
+    implementation project(Modules.persistence)
 
     implementation Libraries.kotlin
     implementation Libraries.appCompat
