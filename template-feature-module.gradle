@@ -41,6 +41,9 @@ dependencies {
     testImplementation Libraries.jUnit
     testImplementation Libraries.koinTest
 
+    implementation Libraries.navigationFragmentKtx
+    implementation Libraries.navigationUIKtx
+
     androidTestImplementation Libraries.androidJUnit
     androidTestImplementation Libraries.testRunner
     androidTestImplementation Libraries.testEspresso

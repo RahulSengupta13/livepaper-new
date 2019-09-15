@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_splashFragment">
+
+    <fragment
+        android:id="@id/navigation_splashFragment"
+        android:name="me.rahulsengupta.architecture_sample.splash.SplashFragment"
+        android:label="@string/splash_title"
+        tools:layout="@layout/fragment_splash" />
+</navigation>

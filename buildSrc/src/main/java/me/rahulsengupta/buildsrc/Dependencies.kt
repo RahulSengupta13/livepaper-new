@@ -46,6 +46,9 @@ object Versions {
 
     // Logging
     const val timber = "4.7.1"
+
+    // Navigation
+    const val navigation = "2.0.0"
 }
 
 object Libraries {
@@ -98,6 +101,11 @@ object Libraries {
 
     //Logging
     const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
+
+    // Navigation
+
+    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationUIKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
 }
 
 object Modules {

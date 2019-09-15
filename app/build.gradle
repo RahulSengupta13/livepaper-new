@@ -44,6 +44,9 @@ dependencies {
     implementation Libraries.koinXscope
     implementation Libraries.koinXviewModel
 
+    implementation Libraries.navigationFragmentKtx
+    implementation Libraries.navigationUIKtx
+
     api Libraries.lifecycleExtensions
     api Libraries.lifecycleViewModel
     api Libraries.lifecycleLiveData
@@ -52,6 +55,7 @@ dependencies {
     implementation Libraries.multidex
     implementation Libraries.timber
 
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation Libraries.jUnit
 
     androidTestImplementation Libraries.androidJUnit

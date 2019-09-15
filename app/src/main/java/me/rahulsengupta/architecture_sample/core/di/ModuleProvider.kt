@@ -1,6 +1,6 @@
 package me.rahulsengupta.architecture_sample.core.di
 
-import me.rahulsengupta.architecture_sample.main.MainActivityAvm
+import me.rahulsengupta.architecture_sample.splash.SplashFragmentAvm
 import me.rahulsengupta.domain.core.di.DomainModules
 import me.rahulsengupta.network.core.di.NetworkModules
 import me.rahulsengupta.persistence.PersistenceModules
@@ -11,7 +11,7 @@ import org.koin.dsl.module
 object ModuleProvider {
 
     private val appModules = module {
-        viewModel { MainActivityAvm(get()) }
+        viewModel { SplashFragmentAvm() }
     }
 
     val modules: List<Module>
