@@ -20,6 +20,7 @@ object Versions {
     const val androidXAppCompact = "1.1.0"
     const val androidXAnnotation = "1.1.0"
     const val androidXTest = "1.0.0"
+    const val androidJUnit = "1.1.2-alpha02"
     const val lifecycle = "2.2.0-alpha04"
     const val multidex = "1.0.3"
     const val koin = "2.0.1"
@@ -55,6 +56,7 @@ object Libraries {
     const val androidxAnnotation = "androidx.annotation:annotation:${Versions.androidXAnnotation}"
     const val androidxCore = "androidx.core:core-ktx:${Versions.androidXCore}"
     const val androidxTest = "androidx.test:core:${Versions.androidXTest}"
+    const val androidJUnit = "androidx.test.ext:junit:${Versions.androidJUnit}"
 
     const val multidex = "com.android.support:multidex:${Versions.multidex}"
 

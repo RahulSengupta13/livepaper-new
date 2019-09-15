@@ -54,6 +54,7 @@ dependencies {
 
     testImplementation Libraries.jUnit
 
+    androidTestImplementation Libraries.androidJUnit
     androidTestImplementation Libraries.testRunner
     androidTestImplementation Libraries.testEspresso
 }

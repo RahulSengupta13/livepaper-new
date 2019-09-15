@@ -36,6 +36,8 @@ dependencies {
 
     testImplementation Libraries.jUnit
     testImplementation Libraries.koinTest
+
+    androidTestImplementation Libraries.androidJUnit
     androidTestImplementation Libraries.testRunner
     androidTestImplementation Libraries.testEspresso
 }
