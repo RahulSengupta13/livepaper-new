@@ -44,6 +44,8 @@ dependencies {
     implementation Libraries.navigationFragmentKtx
     implementation Libraries.navigationUIKtx
 
+    implementation Libraries.timber
+
     androidTestImplementation Libraries.androidJUnit
     androidTestImplementation Libraries.testRunner
     androidTestImplementation Libraries.testEspresso

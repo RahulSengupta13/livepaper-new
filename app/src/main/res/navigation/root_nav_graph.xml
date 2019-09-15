@@ -10,4 +10,6 @@
         android:name="me.rahulsengupta.architecture_sample.splash.SplashFragment"
         android:label="@string/splash_title"
         tools:layout="@layout/fragment_splash" />
+
+    <include app:graph="@navigation/home_nav_graph" />
 </navigation>

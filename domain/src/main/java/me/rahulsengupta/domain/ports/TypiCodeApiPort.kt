@@ -1,8 +1,8 @@
 package me.rahulsengupta.domain.ports
 
 import me.rahulsengupta.abstractor.dto.Photo
-import me.rahulsengupta.abstractor.core.retrofit.RetrofitResult
+import me.rahulsengupta.abstractor.core.retrofit.NetworkResponse
 
 interface TypiCodeApiPort {
-    fun getPhotos(): RetrofitResult<List<Photo>>
+    fun getPhotos(): NetworkResponse<List<Photo>>
 }

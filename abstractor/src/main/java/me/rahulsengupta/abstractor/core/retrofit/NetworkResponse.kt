@@ -4,16 +4,16 @@ import okhttp3.Headers
 import retrofit2.Response
 import java.io.Serializable
 
-sealed class RetrofitResult<out T> : Serializable {
+sealed class NetworkResponse<out T> : Serializable {
 
     data class ErrorResult<out T>(
         val message: String,
         val response: Response<*>? = null
-    ) : RetrofitResult<T>()
+    ) : NetworkResponse<T>()
 
     data class SuccessfulResult<out T>(
         val body: T,
         val headers: Headers
-    ) : RetrofitResult<T>()
+    ) : NetworkResponse<T>()
 
 }

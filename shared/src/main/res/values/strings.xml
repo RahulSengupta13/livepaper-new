@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">shared</string>
+
+    <!--DeepLinks-->
+    <string name="navigation_home_deepLink">architectureSample://homeFragment</string>
 </resources>

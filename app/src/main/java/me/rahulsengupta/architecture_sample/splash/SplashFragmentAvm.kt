@@ -3,14 +3,11 @@ package me.rahulsengupta.architecture_sample.splash
 import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import me.rahulsengupta.abstractor.core.retrofit.RetrofitResult
-import me.rahulsengupta.abstractor.repository.IMainActivityRepository
-import me.rahulsengupta.architecture_sample.core.coroutine.ScopedViewModel
-import timber.log.Timber
+import me.rahulsengupta.shared.coroutine.ScopedViewModel
 import java.util.concurrent.TimeUnit
 
 class SplashFragmentAvm : ScopedViewModel() {
-    //private val repo: IMainActivityRepository
+    //private val repo: IHomeFragmentRepository
 
     private val _finish: MutableLiveData<Unit> = MutableLiveData()
     val finish
@@ -20,18 +17,6 @@ class SplashFragmentAvm : ScopedViewModel() {
         coroutineScope.launch {
             delay(TimeUnit.SECONDS.toMillis(1))
             finish.postValue(Unit)
-//            repo.getPhotos().run {
-//                Timber.d(toString())
-//                when(this) {
-//                    is RetrofitResult.SuccessfulResult -> {
-//                        val firstPhoto = body.first()
-//                        repo.savePhoto(firstPhoto)
-//                    }
-//                }
-//            }
-//
-//            val dbResult = repo.getPhotosFromDb()
-//            Timber.d(dbResult.toString())
         }
     }
 }

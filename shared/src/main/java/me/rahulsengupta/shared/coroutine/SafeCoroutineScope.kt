@@ -1,8 +1,9 @@
-package me.rahulsengupta.architecture_sample.core.coroutine
+package me.rahulsengupta.shared.coroutine
 
 import android.content.Context
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import me.rahulsengupta.shared.coroutine.BaseCoroutine
 import kotlin.coroutines.CoroutineContext
 
 open class SafeCoroutineScope(context: Context): BaseCoroutine(context) {

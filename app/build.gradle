@@ -55,7 +55,6 @@ dependencies {
     implementation Libraries.multidex
     implementation Libraries.timber
 
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation Libraries.jUnit
 
     androidTestImplementation Libraries.androidJUnit

@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample.core.coroutine
+package me.rahulsengupta.shared.coroutine
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineExceptionHandler

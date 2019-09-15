@@ -48,7 +48,7 @@ object Versions {
     const val timber = "4.7.1"
 
     // Navigation
-    const val navigation = "2.0.0"
+    const val navigation = "2.2.0-alpha02"
 }
 
 object Libraries {

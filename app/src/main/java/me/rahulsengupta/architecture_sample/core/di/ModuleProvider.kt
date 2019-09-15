@@ -1,6 +1,7 @@
 package me.rahulsengupta.architecture_sample.core.di
 
 import me.rahulsengupta.architecture_sample.splash.SplashFragmentAvm
+import me.rahulsengupta.di.HomeModules
 import me.rahulsengupta.domain.core.di.DomainModules
 import me.rahulsengupta.network.core.di.NetworkModules
 import me.rahulsengupta.persistence.PersistenceModules
@@ -21,6 +22,7 @@ object ModuleProvider {
                 addAll(DomainModules.modules)
                 addAll(NetworkModules.modules)
                 addAll(PersistenceModules.modules)
+                addAll(HomeModules.modules)
             }
         }
 }

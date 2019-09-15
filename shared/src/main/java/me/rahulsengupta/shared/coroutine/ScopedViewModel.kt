@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample.core.coroutine
+package me.rahulsengupta.shared.coroutine
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
