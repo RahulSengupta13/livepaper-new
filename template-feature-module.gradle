@@ -1,0 +1,45 @@
+import me.rahulsengupta.buildsrc.Libraries
+import me.rahulsengupta.buildsrc.AppMetaData
+import me.rahulsengupta.buildsrc.Modules
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion AppMetaData.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion AppMetaData.minSdkVersion
+        targetSdkVersion AppMetaData.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+}
+
+dependencies {
+    implementation project(Modules.shared)
+    implementation project(Modules.abstractor)
+
+    implementation Libraries.appCompat
+    implementation Libraries.androidxCore
+    implementation Libraries.constraintLayout
+
+    implementation Libraries.kotlin
+    implementation Libraries.koinXcore
+    implementation Libraries.koinXscope
+    implementation Libraries.koinXviewModel
+
+    implementation Libraries.coroutines
+    implementation Libraries.coroutinesAndroid
+
+    testImplementation Libraries.jUnit
+    testImplementation Libraries.koinTest
+    androidTestImplementation Libraries.testRunner
+    androidTestImplementation Libraries.testEspresso
+}

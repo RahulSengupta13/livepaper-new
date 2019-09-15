@@ -1,0 +1,20 @@
+import me.rahulsengupta.buildsrc.GradleTemplates
+import me.rahulsengupta.buildsrc.Libraries
+import me.rahulsengupta.buildsrc.Modules
+
+apply from:"$rootDir/${GradleTemplates.androidLibrary}"
+
+dependencies {
+    implementation project(Modules.abstractor)
+
+    implementation Libraries.appCompat
+    implementation Libraries.androidxCore
+    implementation Libraries.googleAndroidMaterial
+
+    implementation Libraries.coroutines
+    implementation Libraries.coroutinesAndroid
+
+    implementation Libraries.lifecycleExtensions
+    implementation Libraries.lifecycleViewModel
+    implementation Libraries.lifecycleLiveData
+}

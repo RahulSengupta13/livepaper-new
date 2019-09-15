@@ -20,17 +20,17 @@ object Versions {
     const val androidXAppCompact = "1.1.0"
     const val androidXAnnotation = "1.1.0"
     const val androidXTest = "1.0.0"
-    const val lifecycle = "2.2.0-alpha02"
+    const val lifecycle = "2.2.0-alpha04"
     const val multidex = "1.0.3"
     const val koin = "2.0.1"
-    const val coroutines = "1.3.0-M2"
+    const val coroutines = "1.3.1"
 
     // UI
-    const val constraintLayout = "1.1.3"
-    const val googleAndroidMaterial = "1.0.0"
+    const val constraintLayout = "2.0.0-beta2"
+    const val googleAndroidMaterial = "1.1.0-alpha10"
 
     // Room
-    const val room = "2.1.0"
+    const val room = "2.2.0-rc01"
 
     // Network
     const val okHttp = "3.12.0"
@@ -104,8 +104,11 @@ object Modules {
     const val domain = ":domain"
     const val network = ":network"
     const val persistence = ":persistence"
+    const val shared = ":shared"
+    const val home = ":home"
 }
 
 object GradleTemplates {
     const val androidLibrary = "template-android-lib.gradle"
+    const val featureLibrary = "template-feature-module.gradle"
 }

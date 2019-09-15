@@ -1,11 +1,11 @@
 package me.rahulsengupta.architecture_sample.main
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import me.rahulsengupta.architecture_sample.R
+import me.rahulsengupta.shared.ui.BaseActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private val avm: MainActivityAvm by viewModel()
 

@@ -12,8 +12,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/home" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/persistence" />
+            <option value="$PROJECT_DIR$/shared" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

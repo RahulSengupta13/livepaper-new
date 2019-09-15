@@ -32,6 +32,8 @@ dependencies {
     implementation project(Modules.domain)
     implementation project(Modules.network)
     implementation project(Modules.persistence)
+    implementation project(Modules.shared)
+    implementation project(Modules.home)
 
     implementation Libraries.kotlin
     implementation Libraries.appCompat

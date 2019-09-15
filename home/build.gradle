@@ -1,0 +1,7 @@
+import me.rahulsengupta.buildsrc.GradleTemplates
+
+apply from: "$rootDir/${GradleTemplates.featureLibrary}"
+
+dependencies {
+
+}
