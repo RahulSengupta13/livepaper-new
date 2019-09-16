@@ -12,59 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c58dbf6d-d050-4fb6-a06c-8d2484cbc782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/HomeFragmentLogic.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/model/HomeFragmentViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/ui/HomeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/utils/UiUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/res/color/navigation_item_background_tint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/res/drawable/navigation_item_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/src/main/res/layout/header_navigation_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/java/me/rahulsengupta/shared/extensions/ViewExtensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/java/me/rahulsengupta/shared/navigation/MainNavigation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/res/drawable/ic_nav_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/res/layout/include_appbar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/main/res/values-sw384dp/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/rahulsengupta/architecture_sample/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/rahulsengupta/architecture_sample/splash/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/architecture-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/architecture-sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/java/me/rahulsengupta/buildsrc/Dependencies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/java/me/rahulsengupta/buildsrc/Dependencies.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/HomeActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/ui/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/HomeFragmentAvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/java/me/rahulsengupta/home/HomeFragmentAvm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/drawable/ic_nav_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/res/drawable/ic_nav_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/menu/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/res/menu/navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/navigation/home_nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/main/res/navigation/home_nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/persistence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/persistence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/shared.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/me/rahulsengupta/shared/ui/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/me/rahulsengupta/shared/ui/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/res/values/ids.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-android-lib.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template-android-lib.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-feature-module.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/template-feature-module.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -99,54 +47,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/root_nav_graph.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
+          <provider editor-type-id="nav-designer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buildSrc/src/main/java/me/rahulsengupta/buildsrc/Dependencies.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abstractor/build.gradle">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -180,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/themes/themes.xml" />
         <option value="$PROJECT_DIR$/shared/src/main/res/values/themes/themes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
@@ -231,6 +144,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" />
         <option value="$PROJECT_DIR$/home/src/main/res/layout/header_navigation_view.xml" />
         <option value="$PROJECT_DIR$/buildSrc/src/main/java/me/rahulsengupta/buildsrc/Dependencies.kt" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
       </list>
     </option>
   </component>
@@ -558,20 +472,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shared/build/intermediates/packaged_res/debug/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="44" column="65" lean-forward="true" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f389b66d69686d11f003e332e5d4102/appcompat-1.1.0/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="2049" column="39" selection-start-line="2049" selection-start-column="39" selection-end-line="2049" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6431377a4fe016eb7445f5fe9ad8d38b/material-1.1.0-alpha10/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -625,18 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-android-lib.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -904,21 +792,12 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/abstractor/build.gradle">
+    <entry file="file://$PROJECT_DIR$/shared/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="147">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,20 +809,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/build.gradle">
+    <entry file="file://$PROJECT_DIR$/abstractor/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state>
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buildSrc/src/main/java/me/rahulsengupta/buildsrc/Dependencies.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="1521">
           <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-android-lib.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/root_nav_graph.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="nav-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
