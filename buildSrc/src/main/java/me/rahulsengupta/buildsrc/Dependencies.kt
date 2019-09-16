@@ -118,6 +118,8 @@ object Modules {
     const val network = ":network"
     const val persistence = ":persistence"
     const val shared = ":shared"
+
+    // Feature Modules
     const val home = ":home"
 }
 

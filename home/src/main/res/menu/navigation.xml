@@ -7,25 +7,7 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@id/navigation_homeActivity"
-            android:icon="@drawable/ic_nav_home"
-            android:title="@string/home_title"
-            app:contentDescription="@string/home_title" />
-
-        <item
-            android:id="@id/navigation_homeActivity"
-            android:icon="@drawable/ic_nav_home"
-            android:title="@string/home_title"
-            app:contentDescription="@string/home_title" />
-
-        <item
-            android:id="@id/navigation_homeActivity"
-            android:icon="@drawable/ic_nav_home"
-            android:title="@string/home_title"
-            app:contentDescription="@string/home_title" />
-
-        <item
-            android:id="@id/navigation_homeActivity"
+            android:id="@id/navigation_homeFragment"
             android:icon="@drawable/ic_nav_home"
             android:title="@string/home_title"
             app:contentDescription="@string/home_title" />
@@ -36,15 +18,9 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@id/navigation_homeActivity"
-            android:icon="@drawable/ic_nav_home"
-            android:title="@string/home_title"
-            app:contentDescription="@string/home_title" />
-
-        <item
-            android:id="@id/navigation_homeActivity"
-            android:icon="@drawable/ic_nav_home"
-            android:title="@string/home_title"
-            app:contentDescription="@string/home_title" />
+            android:id="@id/navigation_settingsFragment"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/settings_title"
+            app:contentDescription="@string/settings_title" />
     </group>
 </menu>

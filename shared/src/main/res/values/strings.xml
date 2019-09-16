@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name">shared</string>
+    <string name="app_name">Architecture Sample</string>
+    <string name="home_title">Home</string>
+    <string name="settings_title">Settings</string>
 
     <!--DeepLinks-->
     <string name="navigation_homeActivity_deepLink">architectureSample://homeActivity</string>
-
-    <!--Accessibility-->
-    <string name="a11y_show_navigation" translation_description="Description of the menu button shown on top-level screens.">Show navigation menu</string>
 </resources>

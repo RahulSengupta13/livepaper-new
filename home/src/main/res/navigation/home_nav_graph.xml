@@ -7,7 +7,7 @@
 
     <activity
         android:id="@id/navigation_homeActivity"
-        android:name="me.rahulsengupta.home.HomeActivity"
+        android:name="me.rahulsengupta.home.ui.HomeActivity"
         android:label="@string/home_title"
         tools:layout="@layout/activity_home">
 
@@ -15,7 +15,7 @@
     </activity>
     <fragment
         android:id="@id/navigation_homeFragment"
-        android:name="me.rahulsengupta.home.HomeFragment"
+        android:name="me.rahulsengupta.home.ui.HomeFragment"
         android:label="@string/home_title"
         tools:layout="@layout/fragment_home"/>
 </navigation>
