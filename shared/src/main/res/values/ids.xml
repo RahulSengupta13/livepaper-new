@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="navigation_splashFragment" type="id"/>
+    <item name="navigation_homeActivity" type="id"/>
     <item name="navigation_homeFragment" type="id"/>
 </resources>

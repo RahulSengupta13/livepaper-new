@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/purple</color>
+    <color name="color_primary_dark">@color/deep_purple</color>
+    <color name="color_on_secondary">@color/white</color>
+
+    <color name="purple">#6200EE</color>
+    <color name="deep_purple">#3700B3</color>
+    <color name="teal">#03DAC6</color>
+    <color name="sea_green">#018786</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="transparent">#0fff</color>
+</resources>

@@ -46,6 +46,8 @@ dependencies {
 
     implementation Libraries.timber
 
+    implementation Libraries.swipeRefreshLayout
+
     androidTestImplementation Libraries.androidJUnit
     androidTestImplementation Libraries.testRunner
     androidTestImplementation Libraries.testEspresso

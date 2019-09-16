@@ -3,7 +3,7 @@
     package="me.rahulsengupta.home">
 
     <application>
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
     </application>
 
 </manifest>

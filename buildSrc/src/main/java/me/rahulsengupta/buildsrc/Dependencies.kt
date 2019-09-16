@@ -49,6 +49,8 @@ object Versions {
 
     // Navigation
     const val navigation = "2.2.0-alpha02"
+
+    const val swipeRefreshLayout = "1.0.0"
 }
 
 object Libraries {
@@ -103,9 +105,10 @@ object Libraries {
     const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 
     // Navigation
-
     const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val navigationUIKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+
+    const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipeRefreshLayout}"
 }
 
 object Modules {

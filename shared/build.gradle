@@ -17,4 +17,6 @@ dependencies {
     implementation Libraries.lifecycleExtensions
     implementation Libraries.lifecycleViewModel
     implementation Libraries.lifecycleLiveData
+
+    implementation Libraries.swipeRefreshLayout
 }

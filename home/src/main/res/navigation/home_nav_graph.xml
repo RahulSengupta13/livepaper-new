@@ -4,11 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_nav_graph"
     app:startDestination="@id/navigation_homeFragment">
+
+    <activity
+        android:id="@id/navigation_homeActivity"
+        android:name="me.rahulsengupta.home.HomeActivity"
+        android:label="@string/home_title"
+        tools:layout="@layout/activity_home">
+
+        <deepLink app:uri="@string/navigation_homeActivity_deepLink" />
+    </activity>
     <fragment
         android:id="@id/navigation_homeFragment"
         android:name="me.rahulsengupta.home.HomeFragment"
         android:label="@string/home_title"
-        tools:layout="@layout/fragment_home">
-        <deepLink app:uri="@string/navigation_home_deepLink" />
-    </fragment>
+        tools:layout="@layout/fragment_home"/>
 </navigation>
