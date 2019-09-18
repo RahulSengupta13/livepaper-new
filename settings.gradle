@@ -1,9 +1,9 @@
 import me.rahulsengupta.buildsrc.Modules
 
 include Modules.app,
-        Modules.abstractor,
         Modules.domain,
         Modules.network,
         Modules.persistence,
         Modules.shared,
-        Modules.home
+        Modules.home,
+        Modules.abstractor

@@ -3,8 +3,8 @@ package me.rahulsengupta.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.launch
-import me.rahulsengupta.abstractor.repository.IHomeFragmentRepository
 import me.rahulsengupta.home.model.HomeFragmentViewModel
+import me.rahulsengupta.abstractor.repository.IHomeFragmentRepository
 import me.rahulsengupta.shared.coroutine.ScopedViewModel
 
 class HomeFragmentAvm(private val repo: IHomeFragmentRepository) : ScopedViewModel() {

@@ -124,6 +124,7 @@ object Modules {
 }
 
 object GradleTemplates {
-    const val androidLibrary = "template-android-lib.gradle"
+    const val androidLibrary = "template-android-library.gradle"
     const val featureLibrary = "template-feature-module.gradle"
+    const val kotlinLibrary = "template-kotlin-library.gradle"
 }

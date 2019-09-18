@@ -1,8 +1,8 @@
 package me.rahulsengupta.home
 
+import me.rahulsengupta.home.model.HomeFragmentViewModel
 import me.rahulsengupta.abstractor.core.retrofit.NetworkResponse
 import me.rahulsengupta.abstractor.repository.IHomeFragmentRepository
-import me.rahulsengupta.home.model.HomeFragmentViewModel
 import timber.log.Timber
 
 class HomeFragmentLogic(private val repo: IHomeFragmentRepository, private val listener: Listener) {
