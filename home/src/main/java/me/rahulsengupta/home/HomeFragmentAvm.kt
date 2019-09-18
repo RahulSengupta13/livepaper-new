@@ -7,7 +7,7 @@ import me.rahulsengupta.home.model.HomeFragmentViewModel
 import me.rahulsengupta.abstractor.repository.IHomeFragmentRepository
 import me.rahulsengupta.shared.coroutine.ScopedViewModel
 
-class HomeFragmentAvm(private val repo: IHomeFragmentRepository) : ScopedViewModel() {
+class HomeFragmentAvm(repo: IHomeFragmentRepository) : ScopedViewModel() {
 
     private val logic: HomeFragmentLogic
 

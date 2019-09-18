@@ -6,7 +6,7 @@ import retrofit2.Response
 fun <T> Call<T>.getResult(defaultErrorMessage: String = "Error"): NetworkResponse<T> {
     return try {
         val response = execute()
-        if (isSuccessful(response.code())) {
+        if (response.isSuccessful) {
             val body = response.body()
             val headers = response.headers()
             when {
@@ -20,10 +20,6 @@ fun <T> Call<T>.getResult(defaultErrorMessage: String = "Error"): NetworkRespons
     } catch (e: Exception) {
         toErrorResult(defaultErrorMessage, null)
     }
-}
-
-private fun isSuccessful(code: Int): Boolean {
-    return code in 200..299
 }
 
 private fun <R> toErrorResult(
