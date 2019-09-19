@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.ArchitectureSample.Dark" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryDark">@color/dark_grey</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.ArchitectureSample.Dark" />
+
+    <style name="Widget.ArchitectureSample.Background" parent="Widget.ArchitectureSample">
+        <item name="android:background">@color/dark_grey</item>
+    </style>
+</resources>

@@ -7,7 +7,6 @@ import me.rahulsengupta.shared.coroutine.ScopedViewModel
 import java.util.concurrent.TimeUnit
 
 class SplashFragmentAvm : ScopedViewModel() {
-    //private val repo: IHomeFragmentRepository
 
     private val _finish: MutableLiveData<Unit> = MutableLiveData()
     val finish
@@ -15,7 +14,7 @@ class SplashFragmentAvm : ScopedViewModel() {
 
     fun setup() {
         coroutineScope.launch {
-            delay(TimeUnit.SECONDS.toMillis(1))
+            delay(TimeUnit.SECONDS.toMillis(2))
             finish.postValue(Unit)
         }
     }

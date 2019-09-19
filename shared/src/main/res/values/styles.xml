@@ -26,4 +26,8 @@
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textSize" tools:ignore="SpUsage">20dp</item>
     </style>
+
+    <style name="Widget.ArchitectureSample.Background" parent="Widget.ArchitectureSample">
+        <item name="android:background">@color/purple</item>
+    </style>
 </resources>

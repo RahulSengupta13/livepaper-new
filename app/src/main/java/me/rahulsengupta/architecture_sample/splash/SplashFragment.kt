@@ -20,8 +20,8 @@ class SplashFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         val root = inflater.inflate(R.layout.fragment_splash, container, false)
+
         avm.finish.observe(viewLifecycleOwner, Observer {
             val uri = Uri.parse(getString(R.string.navigation_homeActivity_deepLink))
             findNavController().navigate(uri)
