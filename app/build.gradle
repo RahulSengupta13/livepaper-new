@@ -55,17 +55,6 @@ dependencies {
     implementation Libraries.navigationFragmentKtx
     implementation Libraries.navigationUIKtx
 
-    api Libraries.lifecycleExtensions
-    api Libraries.lifecycleViewModel
-    api Libraries.lifecycleLiveData
-    api Libraries.lifecycleRuntime
-
     implementation Libraries.multidex
     implementation Libraries.timber
-
-    testImplementation Libraries.jUnit
-
-    androidTestImplementation Libraries.androidJUnit
-    androidTestImplementation Libraries.testRunner
-    androidTestImplementation Libraries.testEspresso
 }
