@@ -13,5 +13,13 @@
         tools:layout="@layout/fragment_settings">
 
         <deepLink app:uri="@string/navigation_settingsFragment_deepLink" />
+
+        <action android:id="@+id/action_settingsFragment_to_themeDialogFragment"
+            app:destination="@id/navigation_theme_dialogFragment"/>
     </fragment>
+
+    <dialog
+        android:id="@id/navigation_theme_dialogFragment"
+        android:name="me.rahulsengupta.settings.ui.theme.ThemeDialogFragment"
+        tools:layout="@layout/dialog_theme" />
 </navigation>

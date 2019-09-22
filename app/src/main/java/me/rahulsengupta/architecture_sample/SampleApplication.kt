@@ -11,7 +11,7 @@ class SampleApplication : Application() {
 
     override fun onCreate() {
         if(BuildConfig.DEBUG) {
-            enableStrictMode()
+//            enableStrictMode()
         }
 
         super.onCreate()

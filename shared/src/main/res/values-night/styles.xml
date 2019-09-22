@@ -7,7 +7,7 @@
 
     <style name="AppTheme.PopupTheme" parent="ThemeOverlay.ArchitectureSample.Dark" />
 
-    <style name="Widget.ArchitectureSample.Background" parent="Widget.ArchitectureSample">
+    <style name="Widget.ArchitectureSample.NavigationHeaderBackground" parent="Widget.ArchitectureSample">
         <item name="android:background">@color/dark_grey</item>
     </style>
 </resources>

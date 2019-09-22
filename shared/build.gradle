@@ -14,6 +14,9 @@ dependencies {
     implementation Libraries.coroutines
     implementation Libraries.coroutinesAndroid
 
+    implementation Libraries.navigationUIKtx
+    implementation Libraries.navigationFragmentKtx
+
     implementation Libraries.lifecycleExtensions
     implementation Libraries.lifecycleViewModel
     implementation Libraries.lifecycleLiveData

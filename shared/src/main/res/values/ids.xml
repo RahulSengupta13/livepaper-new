@@ -4,4 +4,5 @@
     <item name="navigation_landingActivity" type="id"/>
     <item name="navigation_homeFragment" type="id"/>
     <item name="navigation_settingsFragment" type="id"/>
+    <item name="navigation_theme_dialogFragment" type="id"/>
 </resources>

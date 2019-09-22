@@ -27,7 +27,9 @@
         <item name="android:textSize" tools:ignore="SpUsage">20dp</item>
     </style>
 
-    <style name="Widget.ArchitectureSample.Background" parent="Widget.ArchitectureSample">
+    <style name="Widget.ArchitectureSample.NavigationHeaderBackground" parent="Widget.ArchitectureSample">
         <item name="android:background">@color/purple</item>
     </style>
+
+    <style name="Widget.Dialog.Style" parent="Theme.MaterialComponents.Dialog.Alert"/>
 </resources>
