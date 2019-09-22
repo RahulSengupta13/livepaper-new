@@ -1,7 +1,9 @@
+import me.rahulsengupta.buildsrc.GradleTemplates
 import me.rahulsengupta.buildsrc.Libraries
 import me.rahulsengupta.buildsrc.AppMetaData
 import me.rahulsengupta.buildsrc.Modules
 
+apply from: "$rootDir/${GradleTemplates.jacoco}"
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -16,6 +18,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            testCoverageEnabled true
+        }
         release {
             minifyEnabled true
         }

@@ -12,7 +12,7 @@ object AppMetaData {
 
 object Versions {
     // Application
-    const val kotlin = "1.3.41"
+    const val kotlin = "1.3.50"
     const val gradle = "3.5.0"
 
     // Core
@@ -49,6 +49,8 @@ object Versions {
 
     // Navigation
     const val navigation = "2.2.0-alpha02"
+
+    const val jacoco = "0.8.4"
 
     const val swipeRefreshLayout = "1.0.0"
 }
@@ -109,6 +111,8 @@ object Libraries {
     const val navigationUIKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
 
     const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipeRefreshLayout}"
+
+    const val jacoco = "org.jacoco:org.jacoco.core:${Versions.jacoco}"
 }
 
 object Modules {
@@ -127,4 +131,5 @@ object GradleTemplates {
     const val androidLibrary = "template-android-library.gradle"
     const val featureLibrary = "template-feature-module.gradle"
     const val kotlinLibrary = "template-kotlin-library.gradle"
+    const val jacoco = "jacoco.gradle"
 }
