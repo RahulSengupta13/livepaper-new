@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@id/navigation_settingsFragment"
-        android:name="me.rahulsengupta.settings.ui.SettingsFragment"
+        android:name="me.rahulsengupta.settings.SettingsFragment"
         android:label="@string/settings_title"
         tools:layout="@layout/fragment_settings">
 
@@ -20,6 +20,6 @@
 
     <dialog
         android:id="@id/navigation_theme_dialogFragment"
-        android:name="me.rahulsengupta.settings.ui.theme.ThemeDialogFragment"
+        android:name="me.rahulsengupta.settings.theme.ui.ThemeDialogFragment"
         tools:layout="@layout/dialog_theme" />
 </navigation>

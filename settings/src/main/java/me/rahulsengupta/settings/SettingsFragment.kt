@@ -1,4 +1,4 @@
-package me.rahulsengupta.settings.ui
+package me.rahulsengupta.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater

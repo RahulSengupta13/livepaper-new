@@ -6,6 +6,7 @@ import me.rahulsengupta.domain.core.di.DomainModules
 import me.rahulsengupta.network.core.di.NetworkModules
 import me.rahulsengupta.persistence.PersistenceModules
 import me.rahulsengupta.settings.di.SettingsModule
+import me.rahulsengupta.shared.di.SharedModules
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -13,7 +14,7 @@ import org.koin.dsl.module
 object ModuleProvider {
 
     private val appModules = module {
-        viewModel { SplashFragmentAvm() }
+        viewModel { SplashFragmentAvm(get(), get()) }
     }
 
     val modules: List<Module>
@@ -23,6 +24,7 @@ object ModuleProvider {
                 addAll(DomainModules.modules)
                 addAll(NetworkModules.modules)
                 addAll(PersistenceModules.modules)
+                addAll(SharedModules.modules)
                 addAll(HomeModules.modules)
                 addAll(SettingsModule.modules)
             }

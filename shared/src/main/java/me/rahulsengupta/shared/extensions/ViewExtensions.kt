@@ -3,6 +3,7 @@ package me.rahulsengupta.shared.extensions
 import android.annotation.SuppressLint
 import androidx.core.os.BuildCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.radiobutton.MaterialRadioButton
 
 @SuppressLint("NewApi") // Lint does not understand isAtLeastQ currently
 fun DrawerLayout.shouldCloseDrawerFromBackPress(): Boolean {
@@ -17,4 +18,10 @@ fun DrawerLayout.shouldCloseDrawerFromBackPress(): Boolean {
     }
     // On P and earlier, always close the drawer
     return true
+}
+
+fun MaterialRadioButton.setOnCheckedListener(body: ()-> Unit) {
+    setOnCheckedChangeListener { _, isChecked ->
+        if(isChecked) body()
+    }
 }

@@ -31,5 +31,11 @@
         <item name="android:background">@color/purple</item>
     </style>
 
-    <style name="Widget.Dialog.Style" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Widget.ArchitectureSample.Dialog.Style" parent="Theme.MaterialComponents.Dialog.Alert"/>
+
+    <style name="Widget.ArchitectureSample.TextView"/>
+
+    <style name="Widget.ArchitectureSample.TextView.Medium">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
 </resources>

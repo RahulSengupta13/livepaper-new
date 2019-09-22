@@ -1,14 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.ArchitectureSample.Dialog.Style"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:padding="@dimen/spacing_normal">
 
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="DIALOG"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <RadioGroup
+            android:id="@+id/theme_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-</LinearLayout>
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_radio_light"
+                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/color_primary_dark"
+                android:paddingStart="@dimen/spacing_normal"
+                android:text="@string/theme_dialog_light" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_radio_dark"
+                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:buttonTint="@color/color_primary_dark"
+                android:paddingStart="@dimen/spacing_normal"
+                android:text="@string/theme_dialog_dark" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/theme_radio_system"
+                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:buttonTint="@color/color_primary_dark"
+                android:paddingStart="@dimen/spacing_normal"
+                android:text="@string/theme_dialog_system" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/theme_dialog_cancel"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_dialog_cancel" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/theme_dialog_apply"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_normal"
+                android:text="@string/theme_dialog_apply" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

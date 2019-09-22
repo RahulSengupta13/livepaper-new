@@ -45,6 +45,7 @@ dependencies {
     implementation Libraries.appCompat
     implementation Libraries.androidxCore
     implementation Libraries.constraintLayout
+    implementation Libraries.googleAndroidMaterial
 
     implementation Libraries.kotlin
     implementation Libraries.koinXcore
