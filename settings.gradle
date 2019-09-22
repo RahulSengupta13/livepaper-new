@@ -5,5 +5,6 @@ include Modules.app,
         Modules.network,
         Modules.persistence,
         Modules.shared,
+        Modules.abstractor,
         Modules.home,
-        Modules.abstractor
+        Modules.settings

@@ -42,6 +42,7 @@ dependencies {
     implementation project(Modules.persistence)
     implementation project(Modules.shared)
     implementation project(Modules.home)
+    implementation project(Modules.settings)
 
     implementation Libraries.kotlin
     implementation Libraries.appCompat

@@ -1,5 +1,6 @@
-package me.rahulsengupta.home.ui
+package me.rahulsengupta.architecture_sample.landing
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.FrameLayout
@@ -12,17 +13,17 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
-import me.rahulsengupta.home.R
+import me.rahulsengupta.architecture_sample.R
 import me.rahulsengupta.shared.extensions.shouldCloseDrawerFromBackPress
 import me.rahulsengupta.shared.navigation.NavigationFragment
 import me.rahulsengupta.shared.ui.BaseActivity
 import me.rahulsengupta.utils.navigationItemBackground
 
-class HomeActivity : BaseActivity() {
+class LandingActivity : BaseActivity() {
 
     companion object {
         private val TOP_LEVEL_DESTINATIONS = setOf(
-            R.id.navigation_homeFragment
+            me.rahulsengupta.home.R.id.navigation_homeFragment
         )
     }
 
@@ -35,7 +36,7 @@ class HomeActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_landing)
 
         content = findViewById(R.id.content_container)
         content.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or
@@ -44,9 +45,9 @@ class HomeActivity : BaseActivity() {
         drawer = findViewById(R.id.drawer)
 
         navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.home_nav_host_fragment) as NavHostFragment?
+            .findFragmentById(R.id.landing_nav_host_fragment) as NavHostFragment?
 
-        navController = findNavController(R.id.home_nav_host_fragment)
+        navController = findNavController(R.id.landing_nav_host_fragment)
         navController.addOnDestinationChangedListener { _, destination, _ ->
             currentNavId = destination.id
             val isTopLevelDestination = TOP_LEVEL_DESTINATIONS.contains(destination.id)
@@ -60,9 +61,19 @@ class HomeActivity : BaseActivity() {
 
         navigation = findViewById(R.id.navigation)
         navigation.apply {
-            itemBackground = navigationItemBackground(this@HomeActivity)
+            itemBackground = navigationItemBackground(this@LandingActivity)
             setupWithNavController(navController)
             setCheckedItem(currentNavId)
+            setNavigationItemSelectedListener {
+                when (it.itemId) {
+                    R.id.navigation_settingsFragment -> {
+                        val uri = Uri.parse(getString(R.string.navigation_settingsFragment_deepLink))
+                        navController.navigate(uri)
+                        true
+                    }
+                    else -> false
+                }
+            }
         }
     }
 
@@ -72,7 +83,7 @@ class HomeActivity : BaseActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return findNavController(R.id.home_nav_host_fragment).navigateUp() || super.onSupportNavigateUp()
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 
     override fun onBackPressed() {

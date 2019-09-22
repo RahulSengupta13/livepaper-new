@@ -125,6 +125,7 @@ object Modules {
 
     // Feature Modules
     const val home = ":home"
+    const val settings = ":settings"
 }
 
 object GradleTemplates {

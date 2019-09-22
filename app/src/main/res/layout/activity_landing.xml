@@ -5,7 +5,7 @@
     android:id="@+id/drawer_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeActivity">
+    tools:context="me.rahulsengupta.architecture_sample.landing.LandingActivity">
 
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer"
@@ -20,12 +20,12 @@
             android:fitsSystemWindows="true">
 
             <fragment
-                android:id="@+id/home_nav_host_fragment"
+                android:id="@+id/landing_nav_host_fragment"
                 android:name="androidx.navigation.fragment.NavHostFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:defaultNavHost="true"
-                app:navGraph="@navigation/home_nav_graph" />
+                app:navGraph="@navigation/landing_nav_graph" />
         </FrameLayout>
 
         <com.google.android.material.navigation.NavigationView

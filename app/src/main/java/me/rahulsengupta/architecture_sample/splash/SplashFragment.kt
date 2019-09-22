@@ -1,6 +1,5 @@
 package me.rahulsengupta.architecture_sample.splash
 
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -23,8 +22,7 @@ class SplashFragment : BaseFragment() {
         val root = inflater.inflate(R.layout.fragment_splash, container, false)
 
         avm.finish.observe(viewLifecycleOwner, Observer {
-            val uri = Uri.parse(getString(R.string.navigation_homeActivity_deepLink))
-            findNavController().navigate(uri)
+            findNavController().navigate(R.id.navigation_landingActivity)
             activity?.finish()
         })
 

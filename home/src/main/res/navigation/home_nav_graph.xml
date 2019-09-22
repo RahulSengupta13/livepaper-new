@@ -3,19 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_nav_graph"
-    app:startDestination="@id/navigation_homeFragment">
-
-    <activity
-        android:id="@id/navigation_homeActivity"
-        android:name="me.rahulsengupta.home.ui.HomeActivity"
-        android:label="@string/home_title"
-        tools:layout="@layout/activity_home">
-
-        <deepLink app:uri="@string/navigation_homeActivity_deepLink" />
-    </activity>
+    app:startDestination="@id/navigation_homeFragment"
+    tools:ignore="UnusedNavigation">
     <fragment
         android:id="@id/navigation_homeFragment"
         android:name="me.rahulsengupta.home.ui.HomeFragment"
         android:label="@string/home_title"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_home">
+
+        <deepLink app:uri="@string/navigation_homeFragment_deepLink" />
+    </fragment>
 </navigation>
