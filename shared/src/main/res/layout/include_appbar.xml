@@ -4,14 +4,14 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
-        style="@style/Widget.ArchitectureSample.AppBar"
+        style="@style/Widget.LivePaper.AppBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            style="@style/Widget.ArchitectureSample.Toolbar"
+            style="@style/Widget.LivePaper.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
             app:layout_scrollFlags="scroll|snap|enterAlways"

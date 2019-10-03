@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample.splash
+package me.rahulsengupta.livepaper.splash
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
-import me.rahulsengupta.architecture_sample.R
+import me.rahulsengupta.livepaper.R
 import me.rahulsengupta.shared.ui.BaseFragment
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

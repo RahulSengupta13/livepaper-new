@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Architecture Sample</string>
+    <string name="app_name">LivePaper</string>
     <string name="home_title">Home</string>
     <string name="settings_title">Settings</string>
 
     <!--DeepLinks-->
-    <string name="navigation_homeFragment_deepLink">architectureSample://homeFragment</string>
-    <string name="navigation_settingsFragment_deepLink">architectureSample://settingsFragment</string>
+    <string name="navigation_homeFragment_deepLink">livePaper://homeFragment</string>
+    <string name="navigation_settingsFragment_deepLink">livePaper://settingsFragment</string>
 </resources>

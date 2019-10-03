@@ -1,6 +1,6 @@
-package me.rahulsengupta.architecture_sample.core.di
+package me.rahulsengupta.livepaper.core.di
 
-import me.rahulsengupta.architecture_sample.splash.SplashFragmentAvm
+import me.rahulsengupta.livepaper.splash.SplashFragmentAvm
 import me.rahulsengupta.di.HomeModules
 import me.rahulsengupta.domain.core.di.DomainModules
 import me.rahulsengupta.network.core.di.NetworkModules

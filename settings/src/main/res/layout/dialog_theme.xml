@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.ArchitectureSample.Dialog.Style"
+    style="@style/Widget.LivePaper.Dialog.Style"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/spacing_normal">
@@ -18,7 +18,7 @@
 
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:id="@+id/theme_radio_light"
-                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                style="@style/Widget.LivePaper.TextView.Medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="@color/color_primary_dark"
@@ -27,7 +27,7 @@
 
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:id="@+id/theme_radio_dark"
-                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                style="@style/Widget.LivePaper.TextView.Medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_normal"
@@ -37,7 +37,7 @@
 
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:id="@+id/theme_radio_system"
-                style="@style/Widget.ArchitectureSample.TextView.Medium"
+                style="@style/Widget.LivePaper.TextView.Medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_normal"

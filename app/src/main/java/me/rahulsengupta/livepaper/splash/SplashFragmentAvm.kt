@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample.splash
+package me.rahulsengupta.livepaper.splash
 
 import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.delay

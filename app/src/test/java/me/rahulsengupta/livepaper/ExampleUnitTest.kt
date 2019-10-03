@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample
+package me.rahulsengupta.livepaper
 
 import org.junit.Test
 

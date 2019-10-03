@@ -17,14 +17,14 @@ object PersistenceModules {
             val application = get<Application>()
             Room.databaseBuilder(
                 application,
-                ArchitectureSampleDatabase::class.java,
+                LivePaperDatabase::class.java,
                 DatabaseMeta.NAME
             ).build()
         }
     }
 
     private val daoModules = module {
-        single { get<ArchitectureSampleDatabase>().photoDao() }
+        single { get<LivePaperDatabase>().photoDao() }
     }
 
     private val portsModule = module {

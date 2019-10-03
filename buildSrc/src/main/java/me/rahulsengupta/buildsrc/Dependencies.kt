@@ -1,7 +1,7 @@
 package me.rahulsengupta.buildsrc
 
 object AppMetaData {
-    const val id = "me.rahulsengupta.architecture_sample"
+    const val id = "me.rahulsengupta.livepaper"
     const val compileSdkVersion = 29
     const val targetSdkVersion = 29
     const val minSdkVersion = 24

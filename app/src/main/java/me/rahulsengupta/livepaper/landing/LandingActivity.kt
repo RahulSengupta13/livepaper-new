@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample.landing
+package me.rahulsengupta.livepaper.landing
 
 import android.net.Uri
 import android.os.Bundle
@@ -13,7 +13,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
-import me.rahulsengupta.architecture_sample.R
+import me.rahulsengupta.livepaper.R
 import me.rahulsengupta.shared.extensions.shouldCloseDrawerFromBackPress
 import me.rahulsengupta.shared.navigation.NavigationFragment
 import me.rahulsengupta.shared.ui.BaseActivity

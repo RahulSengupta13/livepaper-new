@@ -1,13 +1,13 @@
-package me.rahulsengupta.architecture_sample
+package me.rahulsengupta.livepaper
 
 import android.app.Application
 import android.os.StrictMode
-import me.rahulsengupta.architecture_sample.core.di.ModuleProvider
+import me.rahulsengupta.livepaper.core.di.ModuleProvider
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import timber.log.Timber
 
-class SampleApplication : Application() {
+class LivePaperApplication : Application() {
 
     override fun onCreate() {
         if(BuildConfig.DEBUG) {
@@ -22,7 +22,7 @@ class SampleApplication : Application() {
 
         startKoin {
             printLogger()
-            androidContext(this@SampleApplication)
+            androidContext(this@LivePaperApplication)
             modules(ModuleProvider.modules)
         }
     }

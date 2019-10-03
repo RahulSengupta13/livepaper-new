@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@id/navigation_splashFragment"
-        android:name="me.rahulsengupta.architecture_sample.splash.SplashFragment"
+        android:name="me.rahulsengupta.livepaper.splash.SplashFragment"
         android:label="@string/splash_title"
         tools:layout="@layout/fragment_splash" />
 
     <activity
         android:id="@id/navigation_landingActivity"
-        android:name="me.rahulsengupta.architecture_sample.landing.LandingActivity"
+        android:name="me.rahulsengupta.livepaper.landing.LandingActivity"
         android:label="@string/landing_title"
         tools:layout="@layout/activity_landing"/>
 </navigation>

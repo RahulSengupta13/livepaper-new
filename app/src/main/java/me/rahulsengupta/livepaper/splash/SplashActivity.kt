@@ -1,9 +1,9 @@
-package me.rahulsengupta.architecture_sample.splash
+package me.rahulsengupta.livepaper.splash
 
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.findNavController
-import me.rahulsengupta.architecture_sample.R
+import me.rahulsengupta.livepaper.R
 import me.rahulsengupta.shared.ui.BaseActivity
 
 class SplashActivity : BaseActivity() {

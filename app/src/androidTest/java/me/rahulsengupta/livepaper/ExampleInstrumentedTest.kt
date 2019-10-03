@@ -1,4 +1,4 @@
-package me.rahulsengupta.architecture_sample
+package me.rahulsengupta.livepaper
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("me.rahulsengupta.architecture_sample", appContext.packageName)
+        assertEquals("me.rahulsengupta.livepaper", appContext.packageName)
     }
 }

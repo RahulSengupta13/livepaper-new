@@ -6,7 +6,7 @@ import me.rahulsengupta.domain.ports.PreferenceStoragePort
 class SharedPreferencesStorage(context: Context) : PreferenceStoragePort {
 
     companion object {
-        private const val PREFERENCES = "ArchitectureSamplePreferences"
+        private const val PREFERENCES = "LivePaperPreferences"
         private const val THEME = "Theme"
     }
 
