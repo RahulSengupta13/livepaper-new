@@ -1,7 +1,7 @@
 package me.rahulsengupta.home.model
 
-import me.rahulsengupta.abstractor.dto.Photo
+import me.rahulsengupta.abstractor.dto.Collection
 
 data class HomeFragmentViewModel(
-    val photos: List<Photo>
+    val collections: List<Collection>
 )

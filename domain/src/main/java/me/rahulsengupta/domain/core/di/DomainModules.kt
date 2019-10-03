@@ -9,11 +9,17 @@ import org.koin.dsl.module
 
 object DomainModules {
 
-    private val networkModules = module {
-        single<IHomeFragmentRepository> { HomeFragmentRepository(get(), get()) }
+    private val homeFragmentModules = module {
+        single<IHomeFragmentRepository> { HomeFragmentRepository(get()) }
+    }
+
+    private val sharedPrefModule = module {
         single<ISharedPreferencesRepository> { SharedPreferencesRepository(get()) }
     }
 
     val modules: List<Module>
-        get() = listOf(networkModules)
+        get() = listOf(
+            homeFragmentModules,
+            sharedPrefModule
+        )
 }

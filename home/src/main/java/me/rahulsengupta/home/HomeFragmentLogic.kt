@@ -12,17 +12,12 @@ class HomeFragmentLogic(private val repo: IHomeFragmentRepository, private val l
     }
 
     fun setup() {
-        repo.getPhotos().run {
+        repo.getCollections(1, 10).run {
             when (this) {
                 is NetworkResponse.SuccessfulResult -> {
-                    val firstPhoto = body.first()
-                    repo.savePhoto(firstPhoto)
                     listener.present(HomeFragmentViewModel(body))
                 }
             }
         }
-
-        val dbResult = repo.getPhotosFromDb()
-        Timber.d(dbResult.toString())
     }
 }

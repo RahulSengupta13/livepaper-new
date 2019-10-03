@@ -25,7 +25,7 @@ class SplashFragmentAvm(
                 Theme.SYSTEM.themeName -> themeHelper.applyTheme(Theme.SYSTEM)
                 else -> themeHelper.applyTheme(Theme.LIGHT)
             }
-            delay(TimeUnit.SECONDS.toMillis(2))
+            delay(TimeUnit.SECONDS.toMillis(1))
             finish.postValue(Unit)
         }
     }

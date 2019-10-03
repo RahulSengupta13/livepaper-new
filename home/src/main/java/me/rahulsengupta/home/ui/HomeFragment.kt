@@ -24,8 +24,7 @@ class HomeFragment : NavigationFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         avm.present.observe(viewLifecycleOwner, Observer {
-            Toast.makeText(context, "Photos Downloaded: ${it.photos.size}", Toast.LENGTH_SHORT)
-                .show()
+            Toast.makeText(context, "Collections Downloaded: ${it.collections.size}", Toast.LENGTH_SHORT).show()
         })
 
         avm.setup()
